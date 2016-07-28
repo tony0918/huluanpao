@@ -1,0 +1,49 @@
+<?php
+
+function huluanpao_install() {
+  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  minimal_install();
+
+  _huluanpao_profile_install_create_admin_role();
+  _huluanpao_profile_install_reset_theme();
+  _huluanpao_profile_install_reset_block();
+//  _nuskin_prepare_page_section_settings();
+}
+
+function _huluanpao_profile_install_create_admin_role() {
+  // Create a default role for site administrators, with all available permissions assigned.
+  $admin_role = new stdClass();
+  $admin_role->name = 'administrator';
+  $admin_role->weight = 99;
+  user_role_save($admin_role);
+  user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
+  // Set this as the administrator role.
+  variable_set('user_admin_role', $admin_role->rid);
+
+  // Assign user 1 the "administrator" role.
+  db_insert('users_roles')->fields(array('uid' => 1, 'rid' => $admin_role->rid))->execute();
+}
+
+function _huluanpao_profile_install_reset_theme() {
+  $theme = 'huluanpao';
+  $base_theme = 'bootstrap';
+  $admin_theme = 'seven';
+  theme_enable(array($theme, $admin_theme, $base_theme));
+  variable_set('theme_default', $theme);
+  variable_set('admin_theme', $admin_theme);
+  variable_set('node_admin_theme', '1');
+  theme_disable(array('garland', 'stark'));
+}
+
+function _huluanpao_profile_install_reset_block() {
+  $query = db_update('block')
+    ->fields(array('status' => 0, 'region' => '-1'))
+    ->condition('module', array('system', 'user'), 'in')
+    ->condition('delta', array('navigation', 'management', 'login'), 'in')
+    ->execute();
+}
+
+//function _nuskin_prepare_page_section_settings(){
+//  variable_set('nuskin_local_menu', 'nuskin_main_menu_box');
+//  variable_set('nuskin_local_footer', 'nuskin_footer');
+//}

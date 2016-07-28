@@ -1,0 +1,52 @@
+name = huluanpao
+description = huluanpao
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = image
+dependencies[] = list
+dependencies[] = number
+;dependencies[] = taxonomy
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = toolbar
+dependencies[] = shortcut
+
+; Contrib
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = jquery_update
+dependencies[] = strongarm
+dependencies[] = context
+dependencies[] = boxes
+;dependencies[] = libraries
+;dependencies[] = link
+;dependencies[] = field_group
+;dependencies[] = template_field
+;dependencies[] = template_mustache
+;dependencies[] = entity
+;dependencies[] = entityreference
+;dependencies[] = media
+;dependencies[] = videojs
+;dependencies[] = cer
+;dependencies[] = ckeditor
+;dependencies[] = computed_field
+;dependencies[] = date_popup
+;dependencies[] = i18n_taxonomy
+;dependencies[] = multiupload_imagefield_widget
+;dependencies[] = r4032login
+;dependencies[] = state_machine
+;dependencies[] = state_flow
+
+; Development
+dependencies[] = field_ui
+;dependencies[] = syslog
+;dependencies[] = views_ui
+dependencies[] = context_ui
+
+; Custom Features
+;dependencies[] = nuskin_feature
+
+; Custom Modules
+;dependencies[] = nuskin_user_center

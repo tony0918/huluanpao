@@ -1,0 +1,20 @@
+{
+  "name": "huluanpao",
+  "version": "0.0.1",
+  "authors": [
+    "Jim Jin <jinjun502@163.com>"
+  ],
+  "license": "Private",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "bootstrap": "3.3.5"
+  }
+}
