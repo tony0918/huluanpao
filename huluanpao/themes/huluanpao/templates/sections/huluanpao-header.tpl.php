@@ -12,7 +12,7 @@
             <div class="arrow"></div>
             <ul>
               <li><a href="<?php echo url('qdh.html'); ?>">2016 千岛湖马拉松</a></li>
-              <li><a href="<?php echo url('nanjing.html'); ?>">2016 汇添富南京山地马拉松</a></li>
+              <li><a href="http://nanjing.huluanpao.com/" target="_blank">2016 汇添富南京山地马拉松</a></li>
             </ul>
           </div>
         </li>
