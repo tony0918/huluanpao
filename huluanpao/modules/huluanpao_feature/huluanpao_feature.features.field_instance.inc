@@ -10,7 +10,7 @@
 function huluanpao_feature_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-simple_page-body'
+  // Exported field_instance: 'node-simple_page-body'.
   $field_instances['node-simple_page-body'] = array(
     'bundle' => 'simple_page',
     'default_value' => NULL,

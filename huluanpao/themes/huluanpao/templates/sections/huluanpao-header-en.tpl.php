@@ -1,4 +1,4 @@
-<header class="globalHeader">
+<header class="globalHeader hidden-sm hidden-xs">
   <div class="logo"><a href="/">Huluanpao</a></div>
   <div class="container">
     <nav class="nav">

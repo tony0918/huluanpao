@@ -1,4 +1,4 @@
-<footer class="globalFooter">
+<footer class="globalFooter hidden-sm hidden-xs">
   <div class="innerArea">
     <div class="inner clearfix">
       <div id="copyright">沪ICP备14023412号-2 © Shanghai Skyview Sport Co., Ltd</div>
