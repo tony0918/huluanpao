@@ -38,3 +38,7 @@
     </nav>
   </div>
 </header>
+
+<header class="globalHeader visible-sm-block visible-xs-block">
+  <div class="mb-logo"><img src="/profiles/huluanpao/themes/huluanpao/images/logo.svg" alt="logo" class="img-responsive"></div>
+</header>

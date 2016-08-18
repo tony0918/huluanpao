@@ -586,3 +586,9 @@ ul {
 .menu-event .dropNav {
   left: -170% !important;
 }
+
+
+.mb-logo {
+  width: 20%;
+  margin-left: 30px;
+}

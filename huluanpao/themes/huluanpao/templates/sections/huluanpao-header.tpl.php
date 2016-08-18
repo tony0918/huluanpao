@@ -28,10 +28,14 @@
           </div>
         </li>
         <li class="last national-flag">
-          <a href="<?php echo url('<front>');?>" class="active"><img src="<?php echo url(path_to_theme().'/images/cn_logo.png')?>" alt=""/></a>
-          <a href="http://en.huluanpao.com"><img src="<?php echo url(path_to_theme().'/images/en_logo.png')?>" alt=""/></a>
+          <a href="<?php echo url('<front>'); ?>" class="active"><img src="<?php echo url(path_to_theme() . '/images/cn_logo.png') ?>" alt=""/></a>
+          <a href="http://en.huluanpao.com"><img src="<?php echo url(path_to_theme() . '/images/en_logo.png') ?>" alt=""/></a>
         </li>
       </ul>
     </nav>
   </div>
+</header>
+
+<header class="globalHeader visible-sm-block visible-xs-block">
+  <div class="mb-logo"><img src="/profiles/huluanpao/themes/huluanpao/images/logo.svg" alt="logo" class="img-responsive"></div>
 </header>
