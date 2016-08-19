@@ -12,7 +12,7 @@
           <div class="dropNav">
             <div class="arrow"></div>
             <ul>
-              <li><a href="<?php echo url('qdh.html');?>">Thousand Island Lake</a>
+              <li><a href="<?php echo url('qdh.html'); ?>">Thousand Island Lake</a>
               </li>
             </ul>
           </div>
@@ -39,6 +39,38 @@
   </div>
 </header>
 
-<header class="globalHeader visible-sm-block visible-xs-block">
-  <div class="mb-logo"><img src="/profiles/huluanpao/themes/huluanpao/images/logo.svg" alt="logo" class="img-responsive"></div>
-</header>
+<nav class="navbar navbar-default visible-sm-block visible-xs-block mb-nav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand mb-logo" href="#"><img src="/profiles/huluanpao/themes/huluanpao/images/logo.svg" alt="logo" class="img-responsive"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="<?php echo url('index.html'); ?>">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?php echo url('qdh.html'); ?>">Thousand Island Lake</a></li>
+            <li><a href="http://nanjing.huluanpao.com/en" target="_blank">Nanjing Mountain Marathon</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About
+            Brand
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?php echo url('story.html'); ?>">Brand Story</a></li>
+            <li><a href="<?php echo url('about-us.html'); ?>">About Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

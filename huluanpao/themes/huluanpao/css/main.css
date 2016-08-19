@@ -164,8 +164,17 @@ ul {
 }
 
 #wrapper .content .qdh #kv .kvTxt {
-  top: 40%;
-  margin-top: -150px;
+  padding-top: 12%;
+  position: relative;
+  margin-top: 0;
+  overflow-y: scroll;
+}
+
+@media (max-width: 768px) {
+  #wrapper .content .qdh #kv .kvTxt {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
 }
 
 #wrapper .content .qdh #kv .kvTxt .sectit {
@@ -177,7 +186,7 @@ ul {
 }
 
 #wrapper .content .aboutus #kv .kvTxt {
-  top: 40%;
+  top: 35%;
   color: #ffffff;
 }
 
@@ -213,7 +222,7 @@ ul {
 
 #wrapper .content .aboutus #kv .kvTxt .wechat {
   text-align: left;
-  margin-top: 45px;
+  margin-top: 25px;
   font-size: 17px;
 }
 
@@ -311,7 +320,7 @@ ul {
 #wrapper .content .section .container .arrow {
   position: absolute;
   bottom: 16%;
-  left: 50%;
+  text-align: center;
   -webkit-animation: arrowDown .8s linear infinite;
   animation: arrowDown .8s linear infinite;
 }
@@ -546,27 +555,27 @@ ul {
 
 @-webkit-keyframes arrowDown {
   0% {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 16%;
-    left: 50%;
+    /*left: 50%;*/
   }
   100% {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 15%;
-    left: 50%;
+    /*left: 50%;*/
   }
 }
 
 @keyframes arrowDown {
   0% {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 16%;
-    left: 50%;
+    /*left: 50%;*/
   }
   100% {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 15%;
-    left: 50%;
+    /*left: 50%;*/
   }
 }
 
@@ -587,8 +596,19 @@ ul {
   left: -170% !important;
 }
 
+.mb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: 0;
+  z-index: 1;
+}
 
 .mb-logo {
-  width: 20%;
-  margin-left: 30px;
+  width: 25%;
+}
+
+.navbar-collapse {
+  background: white;
 }
