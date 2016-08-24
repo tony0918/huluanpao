@@ -56,18 +56,18 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class=""><a href="<?php echo url('index.html'); ?>">首页</a></li>
-<!--        <li><a href="#">Link</a></li>-->
+        <!--        <li><a href="#">Link</a></li>-->
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">赛事活动
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="<?php echo url('qdh.html'); ?>">2016 千岛湖马拉松</a></li>
             <li><a href="http://nanjing.huluanpao.com/" target="_blank">2016 汇添富南京山地马拉松</a></li>
-<!--            <li><a href="#">Something else here</a></li>-->
-<!--            <li role="separator" class="divider"></li>-->
-<!--            <li><a href="#">Separated link</a></li>-->
-<!--            <li role="separator" class="divider"></li>-->
-<!--            <li><a href="#">One more separated link</a></li>-->
+            <!--            <li><a href="#">Something else here</a></li>-->
+            <!--            <li role="separator" class="divider"></li>-->
+            <!--            <li><a href="#">Separated link</a></li>-->
+            <!--            <li role="separator" class="divider"></li>-->
+            <!--            <li><a href="#">One more separated link</a></li>-->
           </ul>
         </li>
         <li class="dropdown">
@@ -79,20 +79,15 @@
           </ul>
         </li>
       </ul>
-<!--      <ul class="nav navbar-nav navbar-right">-->
-<!--        <li><a href="#">Link</a></li>-->
-<!--        <li class="dropdown">-->
-<!--          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown-->
-<!--            <span class="caret"></span></a>-->
-<!--          <ul class="dropdown-menu">-->
-<!--            <li><a href="#">Action</a></li>-->
-<!--            <li><a href="#">Another action</a></li>-->
-<!--            <li><a href="#">Something else here</a></li>-->
-<!--            <li role="separator" class="divider"></li>-->
-<!--            <li><a href="#">Separated link</a></li>-->
-<!--          </ul>-->
-<!--        </li>-->
-<!--      </ul>-->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">语言/Language
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://en.huluanpao.com">English</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>

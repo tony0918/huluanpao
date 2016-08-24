@@ -12,8 +12,8 @@
           <div class="dropNav">
             <div class="arrow"></div>
             <ul>
-              <li><a href="<?php echo url('qdh.html'); ?>">Thousand Island Lake</a>
-              </li>
+              <li><a href="<?php echo url('qdh.html'); ?>">Thousand Island Lake Marathon</a></li>
+              <li><a href="http://nanjing.huluanpao.com/en" target="_blank">Nanjing Mountain Marathon</a></li>
             </ul>
           </div>
         </li>
@@ -57,7 +57,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="<?php echo url('qdh.html'); ?>">Thousand Island Lake</a></li>
+            <li><a href="<?php echo url('qdh.html'); ?>">Thousand Island Lake Marathon</a></li>
             <li><a href="http://nanjing.huluanpao.com/en" target="_blank">Nanjing Mountain Marathon</a></li>
           </ul>
         </li>
@@ -68,6 +68,15 @@
           <ul class="dropdown-menu">
             <li><a href="<?php echo url('story.html'); ?>">Brand Story</a></li>
             <li><a href="<?php echo url('about-us.html'); ?>">About Us</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language/语言
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://huluanpao.com">中文</a></li>
           </ul>
         </li>
       </ul>
