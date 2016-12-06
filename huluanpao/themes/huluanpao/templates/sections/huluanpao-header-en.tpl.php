@@ -12,7 +12,7 @@
           <div class="dropNav">
             <div class="arrow"></div>
             <ul>
-              <li><a href="<?php echo url('qdh.html'); ?>">Thousand Island Lake Marathon</a></li>
+              <li><a href="http://en.qiandaohu.huluanpao.com/" target="_blank">Thousand Island Lake Marathon</a></li>
               <li><a href="http://nanjing.huluanpao.com/en" target="_blank">Nanjing Mountain Marathon</a></li>
             </ul>
           </div>
@@ -57,7 +57,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="<?php echo url('qdh.html'); ?>">Thousand Island Lake Marathon</a></li>
+            <li><a href="http://en.qiandaohu.huluanpao.com/" target="_blank">Thousand Island Lake Marathon</a></li>
             <li><a href="http://nanjing.huluanpao.com/en" target="_blank">Nanjing Mountain Marathon</a></li>
           </ul>
         </li>

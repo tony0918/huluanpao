@@ -7,11 +7,10 @@
         <li>
           <!--                  <a href="http://qiandaohu.huluanpao.com">千岛湖马拉松</a>-->
           <a href="">赛事活动<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
-
           <div class="dropNav">
             <div class="arrow"></div>
             <ul>
-              <li><a href="<?php echo url('qdh.html'); ?>">2016 千岛湖马拉松</a></li>
+              <li><a href="http://qiandaohu.huluanpao.com/" target="_blank">2016 千岛湖马拉松</a></li>
               <li><a href="http://nanjing.huluanpao.com/" target="_blank">2016 汇添富南京山地马拉松</a></li>
             </ul>
           </div>
@@ -61,8 +60,8 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">赛事活动
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="<?php echo url('qdh.html'); ?>">2016 千岛湖马拉松</a></li>
-            <li><a href="http://nanjing.huluanpao.com/" target="_blank">2016 汇添富南京山地马拉松</a></li>
+            <li><a href="http://qiandaohu.huluanpao.com/" target="_blank">2016 千岛湖马拉松</a></li>
+            <li><a href="http://nanjing.huluanpao.com/" target="_blank">2017 汇添富南京山地马拉松</a></li>
             <!--            <li><a href="#">Something else here</a></li>-->
             <!--            <li role="separator" class="divider"></li>-->
             <!--            <li><a href="#">Separated link</a></li>-->
