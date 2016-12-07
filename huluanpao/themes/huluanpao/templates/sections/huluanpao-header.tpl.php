@@ -11,7 +11,7 @@
             <div class="arrow"></div>
             <ul>
               <li><a href="http://qiandaohu.huluanpao.com/" target="_blank">2016 千岛湖马拉松</a></li>
-              <li><a href="http://nanjing.huluanpao.com/" target="_blank">2016 汇添富南京山地马拉松</a></li>
+              <li><a href="http://nanjing.huluanpao.com/" target="_blank">2017 汇添富南京山地马拉松</a></li>
             </ul>
           </div>
         </li>
