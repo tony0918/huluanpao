@@ -10,8 +10,9 @@
           <div class="dropNav">
             <div class="arrow"></div>
             <ul>
-              <li><a href="http://qiandaohu.huluanpao.com/" target="_blank">2016 千岛湖马拉松</a></li>
-              <li><a href="http://nanjing.huluanpao.com/" target="_blank">2017 汇添富南京山地马拉松</a></li>
+              <li><a href="http://qiandaohu.huluanpao.com/">2016 千岛湖马拉松</a></li>
+              <li><a href="http://nanjing.huluanpao.com/">2017 汇添富南京山地马拉松</a></li>
+              <li><a href="http://hangzhou.huluanpao.com/">2017 杭州美丽跑</a></li>
             </ul>
           </div>
         </li>
@@ -60,13 +61,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">赛事活动
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://qiandaohu.huluanpao.com/" target="_blank">2016 千岛湖马拉松</a></li>
-            <li><a href="http://nanjing.huluanpao.com/" target="_blank">2017 汇添富南京山地马拉松</a></li>
-            <!--            <li><a href="#">Something else here</a></li>-->
-            <!--            <li role="separator" class="divider"></li>-->
-            <!--            <li><a href="#">Separated link</a></li>-->
-            <!--            <li role="separator" class="divider"></li>-->
-            <!--            <li><a href="#">One more separated link</a></li>-->
+            <li><a href="http://qiandaohu.huluanpao.com/">2016 千岛湖马拉松</a></li>
+            <li><a href="http://nanjing.huluanpao.com/">2017 汇添富南京山地马拉松</a></li>
+            <li><a href="http://hangzhou.huluanpao.com/">2017 杭州美丽跑</a></li>
           </ul>
         </li>
         <li class="dropdown">

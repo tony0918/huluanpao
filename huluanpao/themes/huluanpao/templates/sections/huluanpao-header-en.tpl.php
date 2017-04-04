@@ -12,8 +12,9 @@
           <div class="dropNav">
             <div class="arrow"></div>
             <ul>
-              <li><a href="http://en.qiandaohu.huluanpao.com/" target="_blank">Thousand Island Lake Marathon</a></li>
-              <li><a href="http://nanjing.huluanpao.com/en" target="_blank">Nanjing Mountain Marathon</a></li>
+              <li><a href="http://en.qiandaohu.huluanpao.com/">Thousand Island Lake Marathon</a></li>
+              <li><a href="http://nanjing.huluanpao.com/en">Nanjing Mountain Marathon</a></li>
+              <li><a href="http://hangzhou.huluanpao.com/en">2017 Run For Beauty</a></li>
             </ul>
           </div>
         </li>
@@ -57,8 +58,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://en.qiandaohu.huluanpao.com/" target="_blank">Thousand Island Lake Marathon</a></li>
-            <li><a href="http://nanjing.huluanpao.com/en" target="_blank">Nanjing Mountain Marathon</a></li>
+            <li><a href="http://en.qiandaohu.huluanpao.com/">Thousand Island Lake Marathon</a></li>
+            <li><a href="http://nanjing.huluanpao.com/en">Nanjing Mountain Marathon</a></li>
+            <li><a href="http://hangzhou.huluanpao.com/en">2017 Run For Beauty</a></li>
           </ul>
         </li>
         <li class="dropdown">
