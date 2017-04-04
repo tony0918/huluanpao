@@ -12,7 +12,7 @@
             <ul>
               <li><a href="http://qiandaohu.huluanpao.com/">2016 千岛湖马拉松</a></li>
               <li><a href="http://nanjing.huluanpao.com/">2017 汇添富南京山地马拉松</a></li>
-              <li><a href="http://hangzhou.huluanpao.com/">2017 杭州美丽跑</a></li>
+              <li><a href="http://hangzhou.huluanpao.com/">2017 Run For Beauty</a></li>
             </ul>
           </div>
         </li>
@@ -63,7 +63,7 @@
           <ul class="dropdown-menu">
             <li><a href="http://qiandaohu.huluanpao.com/">2016 千岛湖马拉松</a></li>
             <li><a href="http://nanjing.huluanpao.com/">2017 汇添富南京山地马拉松</a></li>
-            <li><a href="http://hangzhou.huluanpao.com/">2017 杭州美丽跑</a></li>
+            <li><a href="http://hangzhou.huluanpao.com/">2017 Run For Beauty</a></li>
           </ul>
         </li>
         <li class="dropdown">
