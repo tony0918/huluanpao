@@ -28,6 +28,7 @@ stylesheets[all][] = bootstrap/css/bootstrap.min.css
 stylesheets[all][] = css/animate.css
 stylesheets[all][] = css/jquery.fullPage.css
 stylesheets[all][] = css/main.css
+stylesheets[all][] = css/wry.css
 
 
 ; For information on choosing the desired method, please read the Drupal

@@ -1,0 +1,61 @@
+.wry-container {
+    background: url('../images/we_are_young_bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 120px;
+}
+
+.wry-menu {
+    padding-top: 100px;
+}
+
+.wry-menu li {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.wry-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.wry-menu li.active a {
+    color: #ffc000;
+}
+
+.wry-article-content h4 {
+    color: #ffc000;
+}
+
+.wry-article-content p {
+    font-size: 18px;
+}
+
+.wry-article-content .txt-block {
+    padding-bottom: 10px;
+}
+
+.wry-article-content-wrapper {
+    overflow: auto;
+}
+
+@media (max-width: 768px) {
+    .wry-container {
+        padding-top: 0;
+    }
+
+    .wry-menu {
+        padding-top: 70px;
+    }
+
+    .wry-menu li {
+        font-size: 14px;
+    }
+
+    .wry-article-content p {
+        font-size: 16px;
+    }
+}
