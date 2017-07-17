@@ -10,10 +10,10 @@
           <div class="dropNav">
             <div class="arrow"></div>
             <ul>
-              <li><a href="http://qiandaohu.huluanpao.com/">2016 千岛湖马拉松</a></li>
+              <li><a href="http://qiandaohu.huluanpao.com/">2017 千岛湖马拉松</a></li>
               <li><a href="http://nanjing.huluanpao.com/">2017 汇添富南京山地马拉松</a></li>
               <li><a href="http://hangzhou.huluanpao.com/">2017 Run For Beauty</a></li>
-              <li><a href="<?php echo url('way/rule');?>">2017 WE ARE YOUNG</a></li>
+<!--              <li><a href="--><?php //echo url('way/rule');?><!--">2017 WE ARE YOUNG</a></li>-->
             </ul>
           </div>
         </li>
@@ -65,7 +65,7 @@
             <li><a href="http://qiandaohu.huluanpao.com/">2016 千岛湖马拉松</a></li>
             <li><a href="http://nanjing.huluanpao.com/">2017 汇添富南京山地马拉松</a></li>
             <li><a href="http://hangzhou.huluanpao.com/">2017 Run For Beauty</a></li>
-            <li><a href="<?php echo url('way/rule');?>">2017 WE ARE YOUNG</a></li>
+<!--            <li><a href="--><?php //echo url('way/rule');?><!--">2017 WE ARE YOUNG</a></li>-->
           </ul>
         </li>
         <li class="dropdown">
