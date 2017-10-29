@@ -6,7 +6,7 @@
         <span class="tit pull-left">Language</span>
         <ul class="pull-left">
           <li>
-            <a href="http://huluanpao.com" class="active">中文<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+            <a href="http://www.huluanpao.com" class="active">中文<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 
             <div class="dropNav">
               <ul>

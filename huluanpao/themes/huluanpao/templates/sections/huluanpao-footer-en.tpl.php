@@ -10,7 +10,7 @@
 
             <div class="dropNav">
               <ul>
-                <li><a href="http://huluanpao.com">中文</a></li>
+                <li><a href="http://www.huluanpao.com">中文</a></li>
               </ul>
             </div>
           </li>

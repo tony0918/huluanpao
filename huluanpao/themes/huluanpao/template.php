@@ -47,7 +47,13 @@ function huluanpao_theme($existing, $type, $theme, $path) {
     ),
     'en_huluanpao_com_footer' => array(
       'template' => 'templates/sections/huluanpao-footer-en'
-    )
+    ),
+    'www_huluanpao_com_header' => array(
+      'template' => 'templates/sections/huluanpao-header'
+    ),
+    'www_huluanpao_com_footer' => array(
+      'template' => 'templates/sections/huluanpao-footer'
+    ),
   );
 }
 
